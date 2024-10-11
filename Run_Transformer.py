@@ -9,6 +9,7 @@ import imutils
 
 
 
+
 # Input image"
 image = cv2.imread("image-processing-straightner/Sample_Pictures/7.jpg")   #Path to image
 ratio = image.shape[0] / 300.0
