@@ -7,9 +7,6 @@ import cv2
 import imutils
 
 
-
-
-
 image = cv2.imread("image-processing-straightner/3008407.jpg")   #Path to image
 ratio = image.shape[0] / 300.0
 orig = image.copy()
