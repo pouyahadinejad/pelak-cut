@@ -9,7 +9,7 @@ import imutils
 
 image = cv2.imread("image-processing-straightner/3008407.jpg")   #Path to image
 ratio = image.shape[0] / 300.0
-orig = image.copy()
+orig = image.copy()  
 image = imutils.resize(image, height = 300)
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
